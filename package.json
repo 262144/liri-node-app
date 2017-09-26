@@ -1,17 +1,30 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "Command line node app that takes in parameters and returns data",
-  "main": "keys.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "James Gomez",
-  "license": "ISC",
+  "description": "",
+  "main": "liri-node-app.js",
   "dependencies": {
+    "inquirer": "^3.3.0",
     "node-spotify-api": "^1.0.7",
     "request": "^2.82.0",
     "spotify": "^0.3.0",
     "twitter": "^1.7.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/262144/liri-node-app.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "Horace Walstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/262144/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/262144/liri-node-app#readme"
 }
